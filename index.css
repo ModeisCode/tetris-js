@@ -1,0 +1,44 @@
+.block {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(11, 75, 252);
+    border: 1px solid rgb(61, 128, 148);
+    border-radius: 7px;
+    margin-right: 2px;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green {
+    background-color: rgb(0, 255, 64);
+}
+
+.blue {
+    background-color: rgb(0, 47, 255);
+}
+
+.orange {
+    background-color: rgb(255, 217, 0);
+}
+
+.block:hover {
+    background-color: rgb(56, 189, 223);
+    cursor: pointer;
+    border: 1px solid rgb(0, 204, 255);
+}
+
+h5 {
+    color: white;
+}
+
+.tetris-area {
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 7px;
+    width: 271px;
+    height: auto;
+    background-image: radial-gradient(rgb(0, 162, 255) , rgb(0, 162, 255));
+}
